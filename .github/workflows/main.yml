@@ -15,8 +15,8 @@ jobs:
       IMAGE_NAME: my-sample-service
       PROJECT_ID: ${{ secrets.PROJECT_ID }}
       REGISTRY_URL: eu.gcr.io # You might need to change this
-      HUMANITEC_ORG: my-humanitec-org # Make sure to change this
-
+      HUMANITEC_ORG: hudl
+      
     steps:
       - name: Checkout
         uses: actions/checkout@v2
